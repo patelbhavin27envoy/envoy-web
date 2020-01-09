@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Visitor Container Component ::  for multiple entries 1`] = `
+<table>
+  <tbody>
+    <div
+      className="flex-grow h-screen overflow-y-scroll"
+    >
+      <div
+        className="mx-auto"
+      >
+        <div
+          className="mt-8"
+        >
+          <table
+            className="w-full"
+          >
+            <thead>
+              <tr>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                >
+                  Name
+                </th>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                >
+                  Notes
+                </th>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-1 bg-grey-lightest"
+                >
+                  Signed out
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              className="align-baseline"
+            >
+              <tr>
+                <td
+                  className="p-2 border-t border-grey-light font-mono text-xs one"
+                >
+                  John Doe
+                   
+                </td>
+                <td
+                  className="p-2 border-t border-grey-light font-mono text-xs two"
+                >
+                  test first
+                </td>
+                <td
+                  className="p-1 border-t border-grey-light font-mono text-xs three"
+                >
+                  <button
+                    className="btn btn-smaller btn--outline"
+                    onClick={[Function]}
+                  >
+                    Sign out
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="p-2 border-t border-grey-light font-mono text-xs one"
+                >
+                  Esteban Arango
+                   
+                </td>
+                <td
+                  className="p-2 border-t border-grey-light font-mono text-xs two"
+                >
+                  Frisbee and Vegan food
+                </td>
+                <td
+                  className="p-1 border-t border-grey-light font-mono text-xs three"
+                >
+                  <button
+                    className="btn btn-smaller btn--outline"
+                    onClick={[Function]}
+                  >
+                    Sign out
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="p-2 border-t border-grey-light font-mono text-xs one"
+                >
+                  Ryan Labouve
+                   
+                </td>
+                <td
+                  className="p-2 border-t border-grey-light font-mono text-xs two"
+                >
+                  Everything about Oklahoma
+                </td>
+                <td
+                  className="p-1 border-t border-grey-light font-mono text-xs three"
+                >
+                  <button
+                    className="btn btn-smaller btn--outline"
+                    onClick={[Function]}
+                  >
+                    Sign out
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="p-2 border-t border-grey-light font-mono text-xs one"
+                >
+                  Esteban Arango
+                   
+                </td>
+                <td
+                  className="p-2 border-t border-grey-light font-mono text-xs two"
+                >
+                  Frisbee and Vegan food
+                </td>
+                <td
+                  className="p-1 border-t border-grey-light font-mono text-xs three"
+                >
+                  Wed Apr 24 2019
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="p-2 border-t border-grey-light font-mono text-xs one"
+                >
+                  Esteban Arango
+                   
+                </td>
+                <td
+                  className="p-2 border-t border-grey-light font-mono text-xs two"
+                >
+                  Frisbee and Vegan food
+                </td>
+                <td
+                  className="p-1 border-t border-grey-light font-mono text-xs three"
+                >
+                  <button
+                    className="btn btn-smaller btn--outline"
+                    onClick={[Function]}
+                  >
+                    Sign out
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </tbody>
+</table>
+`;
+
+exports[`Visitor Container Component ::  for no visitors 1`] = `
+<table>
+  <tbody>
+    <div
+      className="flex-grow h-screen overflow-y-scroll error"
+    >
+      <div
+        className="no-visitors"
+      >
+        No visitors in system!! 
+      </div>
+    </div>
+  </tbody>
+</table>
+`;

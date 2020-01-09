@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Component ::  should render search inputs UI 1`] = `
+<div
+  className="field"
+  role="search"
+>
+  <div
+    className="space-wrapper"
+  />
+  <button
+    className="btn  btn-brand float-right ml-2 new-visitor"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-user"
+    />
+      New visitor
+  </button>
+  <button
+    className="btn  btn-brand float-right ml-2 search non-mobile"
+    onClick={[Function]}
+    type="submit"
+  >
+    <i
+      className="fas fa-search"
+    />
+  </button>
+  <input
+    className="search-item-m p-2 text-sm border float-right max-w-xs w-full non-mobile"
+    name="searchItem"
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+  <img
+    alt="Envoy Logo"
+    className="py3 block"
+    src="https://dashboard.envoy.com/assets/images/logo-small-red-ba0cf4a025dd5296cf6e002e28ad38be.svg"
+    width="31"
+  />
+  <div
+    className="space-wrapper"
+  />
+  <div
+    className="mobile"
+  >
+    <input
+      className="search-item-s p-2 text-sm border max-w-xs"
+      name="searchItem"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+    <button
+      className="btn  btn-brand  p-2 search "
+      onClick={[Function]}
+      type="submit"
+    >
+      <i
+        className="fas fa-search"
+      />
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+table {
+  thead {
+      th {
+        text-align: left;
+      }
+
+      td.one,
+      td.two,
+      td.three {
+        width: 33.3%;
+      }
+  }
+
+
+  tbody {
+    th {
+      text-align: left;
+    }
+    td.one,
+    td.two,
+    td.three {
+      width: 33.3%;
+    }
+  }
+
+}

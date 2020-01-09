@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Visitor Component ::  should make API call :: Success  1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        className="p-2 border-t border-grey-light font-mono text-xs one"
+      >
+         
+      </td>
+      <td
+        className="p-2 border-t border-grey-light font-mono text-xs two"
+      >
+        Everything about Oklahoma
+      </td>
+      <td
+        className="p-1 border-t border-grey-light font-mono text-xs three"
+      >
+        <button
+          className="btn btn-smaller btn--outline"
+          onClick={[Function]}
+        >
+          Sign out
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Visitor Component ::  should make API call with signin and signout  1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        className="p-2 border-t border-grey-light font-mono text-xs one"
+      >
+         
+      </td>
+      <td
+        className="p-2 border-t border-grey-light font-mono text-xs two"
+      >
+        Frisbee and Vegan food
+      </td>
+      <td
+        className="p-1 border-t border-grey-light font-mono text-xs three"
+      >
+        Wed Apr 24 2019
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Visitor Component ::  should make API call with signin and signout  2`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        className="p-2 border-t border-grey-light font-mono text-xs one"
+      >
+         
+      </td>
+      <td
+        className="p-2 border-t border-grey-light font-mono text-xs two"
+      >
+        Frisbee and Vegan food
+      </td>
+      <td
+        className="p-1 border-t border-grey-light font-mono text-xs three"
+      >
+        <button
+          className="btn btn-smaller btn--outline"
+          onClick={[Function]}
+        >
+          Sign out
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Visitor Component ::  should render  1`] = `ReactWrapper {}`;

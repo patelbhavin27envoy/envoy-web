@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VisitorForm Component ::  should check SAVE :: success  1`] = `ReactWrapper {}`;
+
+exports[`VisitorForm Component ::  should check reset and save :: Failure  1`] = `ReactWrapper {}`;
+
+exports[`VisitorForm Component ::  should make API call :: Failure-2  1`] = `ReactWrapper {}`;
+
+exports[`VisitorForm Component ::  should render 1`] = `
+Array [
+  <div
+    className="header"
+  >
+    <img
+      alt="Envoy Logo"
+      className="py3 block logo"
+      src="https://dashboard.envoy.com/assets/images/logo-small-red-ba0cf4a025dd5296cf6e002e28ad38be.svg"
+      width="31"
+    />
+    <div
+      className="form-name ml-2"
+    >
+      Welcome to Envoy!!
+    </div>
+  </div>,
+  <div
+    className="new-visitor"
+  >
+    <h3
+      className="details"
+    >
+      Add Details For Your Visit.
+    </h3>
+    <form
+      className="field"
+    >
+      <div
+        className="element-container"
+      >
+        <span
+          className="tag"
+        >
+          First Name 
+        </span>
+        <input
+          className="firstName p-2 text-sm border  w-full"
+          name="firstName"
+          onChange={[Function]}
+          placeholder="First Name"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="element-container"
+      >
+        <span
+          className="tag"
+        >
+          Last Name 
+        </span>
+        <input
+          className="lastName p-2 text-sm border  w-full"
+          name="lastName"
+          onChange={[Function]}
+          placeholder="Last Name"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="element-container"
+      >
+        <span
+          className="tag"
+        >
+          Note
+        </span>
+        <textarea
+          className="note p-2 text-sm border w-full"
+          cols="40"
+          name="lastName"
+          onChange={[Function]}
+          placeholder="What brings you here today?"
+          rows="4"
+          value=""
+        />
+      </div>
+      <div
+        className="btn-container"
+      >
+        <a
+          className="float-left go-back redLighter"
+          href="#"
+          onClick={[Function]}
+        >
+           Back 
+        </a>
+        <button
+          className="btn  btn--brand ml-2 float-right save"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-user"
+          />
+            Save
+        </button>
+        <button
+          className="btn  btn--brand ml-2 float-right reset"
+          onClick={[Function]}
+        >
+          reset
+        </button>
+      </div>
+    </form>
+  </div>,
+]
+`;
