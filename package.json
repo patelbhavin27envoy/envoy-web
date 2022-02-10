@@ -60,7 +60,7 @@
     "identity-obj-proxy": "latest",
     "jest": "latest",
     "jest-fetch-mock": "latest",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "react-test-renderer": "latest",
     "sass-loader": "^8.0.0",
     "style-loader": "^0.23.1",
